@@ -47,3 +47,12 @@ def calculate_age(birth_year):
 #print(current_year)
 
 print(calculate_age(1970))
+
+
+#SONG LYRICS FUNCTION
+def repeat_stuff(stuff, num_repeats = 10):
+    return stuff * num_repeats
+
+lyrics = repeat_stuff("Row ", 3) + "Your Boat. \n"
+song = repeat_stuff(lyrics)
+print(song)
