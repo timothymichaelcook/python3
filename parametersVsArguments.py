@@ -34,3 +34,16 @@ def create_spreadsheet(title, row_count = 1000):
 # Call create_spreadsheet() below with the required arguments:
 create_spreadsheet("Downloads")
 create_spreadsheet("Applications", row_count = 10)
+
+#SCOPE
+#CURRENT YEAR IS NOT WITHIN THE SCOPE OF CALCULATE_AGE FUNCTION
+
+current_year = 2048
+
+def calculate_age(birth_year):
+  age = current_year - birth_year
+  return age
+
+#print(current_year)
+
+print(calculate_age(1970))
